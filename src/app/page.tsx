@@ -3,7 +3,6 @@ import AppBarComponent from "./components/AppBarComponent";
 import HeroSection from "./components/HeroSection";
 import HighlightsSection from "./components/HighlightsSection";
 import CallToAction from "./components/CallToAction";
-import FooterComponent from "./components/FooterComponent";
 
 const Home = () => {
   return (
@@ -12,7 +11,7 @@ const Home = () => {
       <HeroSection />
       <HighlightsSection />
       <CallToAction />
-      <FooterComponent />
+      
     </div>
   );
 };
